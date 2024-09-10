@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #7fa1c3;
+  text-align: center;
+  justify-content: center;
+  font-family: "SUSE", sans-serif;
+}
+
+nav {
+  display: inline-block;
+  background: lightgrey;
+  width: 100%;
+  padding: 30px 50px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  box-shadow: 2px 4px 10px grey;
+}
+
+nav > a {
+  color: black !important;
+  text-decoration: none;
+  margin: 0 40px;
+}
+
+.home {
+  float: left;
+}
+
+.git {
+  float: right;
+}
+
+.container {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  font-size: 1.6rem;
+}
+
+.container > h1 {
+  margin-bottom: 50px;
+}
+
+button {
+  margin: 20px 0;
+  background: #134b70;
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+input {
+  border-radius: 4px;
+  width: 60%;
+  height: 30px;
+  border: none;
+  font-size: 1.2rem;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+button:hover {
+  background: #201e43;
+}
+
+.result {
+  position: relative;
+  /* padding: 50px; */
+  /* font-size: 2.2rem; */
+  /* margin-left: 118px; */
+  margin-bottom: 30px;
+
+  /* align-content: center; */
+  /* justify-content: center; */
+}
+
+#reset {
+  /* margin-left: 80px; */
+  width: 140px;
+  height: 60px;
+  font-size: 1.4rem;
+}
